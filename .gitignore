@@ -1,0 +1,16 @@
+# WorkBuddy 项目内部数据（非交付物，含本地部署记录）
+.workbuddy/
+
+# 运行日志（由脚本自动生成，含本机窗口句柄等诊断信息）
+*.log
+
+# 第三方安装包体积较大且为 GPL 软件，公开仓库不收录；
+# 由 install.ps1 在安装时从官方源下载并校验 SHA256 后使用。
+AutoHotkey_*_setup.exe
+
+# Windows / 编辑器临时文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*~
